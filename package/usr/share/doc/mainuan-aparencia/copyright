@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mainuan-aparencia
+
+Files: *
+Copyright: 2026 Mainuan
+License: GPL-3.0-or-later
+ On Debian systems the full text is in /usr/share/common-licenses/GPL-3.
+
+Files: usr/share/mainuan-aparencia/layouts/* usr/share/mainuan-aparencia/qml/*
+Comment: Derived from Mainuan Welcome 1.0 (ruscher <rruscher@gmail.com>).
+Copyright: 2026 ruscher and Mainuan
+License: GPL-3.0-or-later
+
+Files: usr/share/mainuan-aparencia/qml/icons/*
+Comment: Line icons in the style of Lucide (https://lucide.dev).
+Copyright: Lucide Contributors
+License: ISC

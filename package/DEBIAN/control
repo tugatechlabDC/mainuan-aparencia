@@ -1,0 +1,14 @@
+Package: mainuan-aparencia
+Version: 1.1.1
+Architecture: all
+Maintainer: Mainuan <mainuan@localhost>
+Section: kde
+Priority: optional
+Depends: python3, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, dbus-bin | dbus, qt6-svg-plugins, qml6-module-org-kde-kirigami, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-window, qml6-module-qtqml-workerscript
+Recommends: plasma-workspace, libkf6kcmutils-bin
+Description: Mainuan appearance settings
+ Standalone version of the Appearance page of Mainuan Welcome. Switch the
+ system theme between light and dark (with the matching Mainuan wallpaper),
+ pick the accent colour and visual style, choose among nine desktop layouts
+ (including macOS and Windows 11 styles that only change panels) and
+ manage the desktop wallpaper. The window follows the system light/dark mode.
