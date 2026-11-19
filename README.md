@@ -46,7 +46,7 @@ As dependências são instaladas automaticamente pelo `apt` ao instalar o `.deb`
 Descarrega o ficheiro `.deb` mais recente na página de [Releases](../../releases) e instala:
 
 ```bash
-sudo apt install ./mainuan-aparencia_1_1_1.deb
+sudo apt install ./mainuan-aparencia_1.1.1.deb
 ```
 
 Depois abre **Mainuan Aparência** no menu de aplicações, ou executa no terminal:
@@ -60,7 +60,7 @@ mainuan-aparencia
 ```bash
 git clone https://github.com/tugatechlabDC/mainuan-aparencia.git
 cd mainuan-aparencia
-dpkg-deb --root-owner-group --build package mainuan-aparencia_1_1_1.deb
+dpkg-deb --root-owner-group --build package mainuan-aparencia_1.1.1.deb
 ```
 
 ## 📁 Estrutura do projeto
